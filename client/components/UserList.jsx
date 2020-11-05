@@ -10,6 +10,7 @@ export default ({ users }) => (
       <tbody>
         { users.map(u => <User {...u} key={u.id} />) }
       </tbody>
+      <button>Click here!</button>
     </table>
   </div>
 )
